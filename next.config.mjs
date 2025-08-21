@@ -6,8 +6,9 @@ const nextConfig = {
       domains: ['images.unsplash.com', 'via.placeholder.com'],
       formats: ['image/webp', 'image/avif'],
     },
+    // Remove the experimental optimizeCss that's causing issues
     experimental: {
-      optimizeCss: true,
+      // optimizeCss: true, // Removed this line
     },
   }
   
